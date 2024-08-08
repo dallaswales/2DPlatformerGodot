@@ -1,0 +1,41 @@
+# Godot specific ignores
+import/
+export/
+
+# Godot's user settings and layouts
+.godot/
+.editor_settings-*.tres
+.project_metadata
+
+# Godot asset library downloads
+addons/*/.import/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.tmp
+*.swap
+*.old
+
+# Caches and temporary files
+.cache/
+*.log
+*.tmp
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore the .mono directory if using C#
+.mono/
+
+# Ignore compiled files
+*.mono.dll
+*.mono.pdb
+*.csproj
+*.sln
